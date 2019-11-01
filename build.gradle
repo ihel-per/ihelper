@@ -46,6 +46,6 @@ buildScan {
 	termsOfServiceAgree = 'yes'
 }
 
-jar {
-	enabled = true
+bootJar {
+	launchScript()
 }
